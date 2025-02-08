@@ -1,50 +1,102 @@
-# Welcome to your Expo app 👋
+# 🔐 Data Encryption & Decryption Program
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📌 Project Overview
 
-## Get started
+This is a **React Native** application that allows users to **encrypt and decrypt** text using a **custom encryption algorithm** with a **secret key**. The app provides a simple UI to enter text, encrypt it, and decrypt it back.
 
-1. Install dependencies
+The source code is also available as a **GitHub Gist** for public collaboration and reuse.
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+-   🔑 **Custom Encryption Algorithm**
+-   🔓 **Secure Decryption using a Secret Key**
+-   🔄 **Case-Sensitive Data Handling**
+-   📂 **Modular and Reusable Code**
+-   📱 **Cross-Platform (iOS & Android) Support**
+-   🎨 **Simple & Interactive UI**
+-   🌐 **Links to HNG & GitHub Repository**
 
-   ```bash
-    npx expo start
-   ```
+## 🚀 Getting Started
 
-In the output, you'll find options to open the app in a
+### 📂 Cloning the Repository
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+To use this program locally, clone the repository:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```sh
+git clone https://github.com/KING-REX/HNG-Mobile-Stage-1.git
+cd HNG-Mobile-Stage-1
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 🛠 Installation & Setup
 
-## Learn more
+Ensure you have **Node.js** and **Expo CLI** installed:
 
-To learn more about developing your project with Expo, look at the following resources:
+1. Install dependencies:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+    ```sh
+    npm install
+    # OR
+    yarn install
+    ```
 
-## Join the community
+2. Start the development server:
 
-Join our community of developers creating universal apps.
+    ```sh
+    npx expo start
+    ```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+3. Scan the QR code with the **Expo Go** app or run it on a simulator.
+
+## 🔑 How It Works
+
+### **Encryption Process**
+
+1. User enters text and a secret key.
+2. The app encrypts the text using a **custom algorithm**.
+3. The encrypted text is displayed in the app.
+
+### **Decryption Process**
+
+1. User enters the **encrypted text** and the same **secret key**.
+2. The app decrypts the text back to its original state.
+3. The decrypted text is displayed in the app.
+
+## 📄 Documentation
+
+-   **encrypt(input, key)** → Encrypts a given string using a secret key.
+-   **decrypt(encryptedText, key)** → Decrypts the encrypted string back to its original state.
+
+## 📂 GitHub Gist
+
+The source code is available as a **GitHub Gist**:  
+🔗 [View Gist](https://gist.github.com/<your-username>/<gist-id>)
+
+## 🎨 Bonus Features
+
+-   🖥 **Interactive Web/App UI** (Optional)
+-   📱 **Mobile App for Encryption/Decryption**
+-   🌐 **Live Demo on Appetize.io**
+    -   **[Live Demo](https://appetize.io/app/b_nvcyd5bn4v2lep66uiw2lej26y)**
+
+## 🔗 Links
+
+-   📂 **GitHub Repository:** [View on GitHub](https://github.com/<your-username>/<repo-name>)
+-   🔗 **GitHub Gist:** [View Gist](https://gist.github.com/<your-username>/<gist-id>)
+-   🌐 **Live Demo on Appetize:** [Try the App](https://appetize.io/app/demo-link)
+-   📢 **HNG Hire Pages:**
+    -   [React-Native Developers](https://hng.tech/react-native)
+    -   [Mobile Developers](https://hng.tech/mobile)
+    -   [Delve](https://hng.tech/delve)
+    -   [Telex](https://hng.tech/telex)
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+## 👥 Contributing
+
+Want to improve this project? Fork the repository or suggest improvements via the GitHub Gist.
+
+## 🏆 Acknowledgments
+
+Thanks to **HNG Internship** for this challenge!
